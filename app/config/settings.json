@@ -1,17 +1,17 @@
 {
-    "APP_DISPLAY_NAME": "ZLauncher 🌎",
+    "APP_DISPLAY_NAME": "Lion Club Launcher 🌎",
   
-    "WELCOME_HEADER_TEXT": "Bienvenido a ZLauncher",
-    "WELCOME_DESC_TEXT": "Launcher desarrollado por zergiv2",
+    "WELCOME_HEADER_TEXT": "Bienvenido a Lion Club Launcher",
+    "WELCOME_DESC_TEXT": "Launcher desarrollado por Belupe",
     "WELCOME_DESC_CTA": "Estás tan solo a unos clicks de ingresar...",
   
-    "WEBSITE_ENABLE": true,
+    "WEBSITE_ENABLE": false,
   "WEBSITE_URL": "https://techterra.x10.mx/",
   
     "FB_ENABLE": false,
   "FB_URL": "",
   
-    "TIKTOK_ENABLE": true,
+    "TIKTOK_ENABLE": false,
     "TIKTOK_URL": "https://www.tiktok.com/@zergi_v2",
   
     "TWITTER_ENABLE": false,
@@ -23,7 +23,7 @@
     "YOUTUBE_ENABLE": true,
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   
-    "DISCORD_ENABLE": true,
+    "DISCORD_ENABLE": false,
     "DISCORD_URL": "https://discord.com/invite/vHCbvhzrj5",
   
     "KICK_ENABLE": false,

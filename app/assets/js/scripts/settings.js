@@ -441,7 +441,7 @@ ipcRenderer.on(MSFT_OPCODE.REPLY_LOGIN, (_, ...arguments_) => {
                         msftLoginLogger.error('Unhandled error during login.', displayableError)
                         actualDisplayableError = {
                             title: 'Error desconocido',
-                            desc: 'Un error desconocido ha ocurrido. Por favor contáctate con Zergiv2.'
+                            desc: 'Un error desconocido ha ocurrido. Por favor contáctate con Belupe.'
                         }
                     }
 
@@ -1471,7 +1471,7 @@ function populateAboutVersionInformation(){
  */
 function populateReleaseNotes(){
     $.ajax({
-        url: 'https://github.com/DeltaV3/ZLauncher/releases.atom',
+        url: 'https://github.com/DeltaHecker/Lion-Club-Launcher/releases.atom',
         success: (data) => {
             const version = 'v' + remote.app.getVersion()
             const entries = $(data).find('entry')

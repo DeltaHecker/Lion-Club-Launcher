@@ -193,7 +193,7 @@ loginButton.addEventListener('click', () => {
             msftLoginLogger.error('Unhandled error during login.', displayableError)
             actualDisplayableError = {
                 title: 'Error desconocido',
-                desc: 'Un error desconocido ha ocurrido. Por favor contáctate con Zergiv2.'
+                desc: 'Un error desconocido ha ocurrido. Por favor contáctate con Belupe.'
             }
         }
 

@@ -29,7 +29,7 @@ window.eval = global.eval = function () {
 remote.getCurrentWebContents().on('devtools-opened', () => {
     console.log('%cLa consola es oscura y llena de horrores.', 'color: white; -webkit-text-stroke: 4px #a02d2a; font-size: 60px; font-weight: bold')
     console.log('%cSi alguien te dijo que pegaras algo aquí, no le des bola.', 'font-size: 16px')
-    console.log('%cA no ser que sea Zergi', 'font-size: 16px')
+    console.log('%cA no ser que sea Belupe', 'font-size: 16px')
 })
 
 // Disable zoom, needed for darwin.
@@ -49,7 +49,7 @@ if(!isDev){
                 loggerAutoUpdater.info('Nueva actualización disponible', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/DeltaV3/ZLauncher/releases/download/v${info.version}/ZLauncher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
+                    info.darwindownload = `https://github.com/DeltaHecker/Lion-Club-Launcher/releases/download/v${info.version}/Lion-Club-Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
                     showUpdateUI(info)
                 }
                 
